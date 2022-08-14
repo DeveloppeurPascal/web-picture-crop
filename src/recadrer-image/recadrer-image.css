@@ -1,0 +1,23 @@
+body {
+	text-align: center;
+}
+#bloc_recadre {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	border: 1px solid #000;
+	background-image: url(images/corner.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+#bloc_recadre_haut,
+#bloc_recadre_gauche,
+#bloc_recadre_bas,
+#bloc_recadre_droite {
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	background-image: url(images/transparent.png);
+	border: 0px solid #000;
+	font-size: 0px;
+}
